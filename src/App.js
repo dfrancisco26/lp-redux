@@ -4,6 +4,8 @@ import { foods } from './foods-data.js';
 import { albums } from './albums-data.js';
 import FoodsList from './FoodsList';
 import AlbumList from './AlbumList';
+import { sqwads } from './sqwads-data.js';
+import SqwadList from './SqwadList';
 // import your arrays here
 
 function App() {
@@ -12,7 +14,10 @@ function App() {
       <FoodsList foods={foods} />
       <hr />
       <AlbumList albums={albums} />
-    </div></>
+      <hr />
+      <SqwadList sqwads={sqwads} />
+    </div>
+    </>
   );
 }
 
