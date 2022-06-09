@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { foods } from './foods-data.js';
 import { albums } from './albums-data.js';
