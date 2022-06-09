@@ -6,6 +6,8 @@ import FoodsList from './FoodsList';
 import AlbumList from './AlbumList';
 import { sqwads } from './sqwads-data.js';
 import SqwadList from './SqwadList';
+import { dogs } from './dogs-data.js';
+import DogList from './DogList';
 // import your arrays here
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <AlbumList albums={albums} />
       <hr />
       <SqwadList sqwads={sqwads} />
+      <hr />
+      <DogList dogs={dogs} />
     </div>
     </>
   );
