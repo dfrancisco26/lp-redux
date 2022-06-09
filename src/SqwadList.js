@@ -1,5 +1,4 @@
 import React from 'react';
-import { sqwads } from './sqwads-data.js';
 import SqwadItem from './SqwadItem';
 export default function SqwadList({ sqwads }) {
   return (
